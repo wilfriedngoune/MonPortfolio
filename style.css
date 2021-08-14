@@ -1,0 +1,137 @@
+body
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+html
+{
+    height: 100%;
+}
+
+.bloc-page
+{
+    display: flex;
+}
+
+#latbar
+{
+    border: 0px solid #002D71;
+    background-color: #002D71;
+    width: 25%;
+    height: 100%;
+    
+}
+
+.profil
+{
+    border: 0px solid none;
+    width: 100px;
+    height: 100px;
+    background-image: url(images/profil-1.jpg);
+    border-radius: 50%;
+    background-size: 100px 130px;
+    margin: auto;
+}
+
+.latbar-name 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.latbar-social 
+{
+    border: 0px solid none;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.network
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 75px 0 75px;
+    margin: auto;
+}
+
+.navigation
+{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-items
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+footer
+{
+    margin-top: 35px;
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bar
+{
+    border: 4px solid white;
+    width: 0;
+    height: 40px;
+    position: absolute;
+    left: 0;
+}
+
+.contenair 
+{
+    border: 0px solid white;
+    background-image: url(images/profil-2.jpg);
+    background-size: 100% 900px;
+    width: 75%;
+    height: 637px;   
+}
+
+.contenair-transparent
+{
+    border: 0px solid white;
+    background-color:rgba(00, 00, 00, 0.7);
+    width: 100%;
+    height: 637px;   
+    /*padding-left: 25px;*/
+}
+
+.profession
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:300px;
+    font-size: 1.7em;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.bigname
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
